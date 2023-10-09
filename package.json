@@ -1,29 +1,24 @@
 {
-  "name": "adminer-node",
-  "version": "1.2.1",
+  "name": "node-adminer",
+  "version": "1.2.2",
   "description": "Run adminer DB client in node",
-  "main": "server.js",
-  "bin": {
-    "adminer-node": "./bin/adminer",
-    "adminer": "./bin/adminer"
-  },
+  "main": "index.js",
+  "types": "index.d.ts",
   "dependencies": {
     "download": "^8.0.0",
     "fs-extra": "^11.1.1",
-    "php-server": "^1.0.0",
-    "yargs": "^17.7.2"
+    "php-server": "^1.0.0"
   },
-  "homepage": "https://github.com/dkyeremeh/node-adminer",
+  "homepage": "https://github.com/adpopescu338/node-adminer",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkyeremeh/node-adminer"
+    "url": "git+https://github.com/adpopescu338/node-adminer"
   },
   "scripts": {
     "install": "node setup.js",
-    "start": "node server.js",
-    "x": "node ./bin/adminer"
+    "setup": "node setup.js"
   },
-  "author": "Desmond Kyeremeh <elDekyfin@gmail.com>",
+  "author": "Alexandru Popescu <ad.popescu338@yahoo.com",
   "license": "MIT",
   "keywords": [
     "adminer",
